@@ -24,6 +24,8 @@
 
 4. В ответе пришлите файл `maven-metadata.xml` для этого артефекта.
 
+Download the XML file [here](./09-ci-03-cicd/maven-metadata.xml).
+
 xml файл находится в текущей Репо
 
 ![Снимок2](https://github.com/arklucis/CI-CD/assets/154414081/9d7b24a2-71f1-46bd-aeaf-3b242b5779e2)
