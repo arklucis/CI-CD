@@ -39,12 +39,8 @@ XML file [here](https://github.com/arklucis/CI-CD/blob/c08ed054f1fbfaf9e7b3f8e86
 
 ### Основная часть
 
-1. Поменяйте в `pom.xml` блок с зависимостями под ваш артефакт из первого пункта задания для Nexus (java с версией 8_282).
-2. Запустите команду `mvn package` в директории с `pom.xml`, ожидайте успешного окончания.
-3. Проверьте директорию `~/.m2/repository/`, найдите ваш артефакт.
 4. В ответе пришлите исправленный файл `pom.xml`.
 
-файл в текущей Репо
+XML file [here](https://github.com/arklucis/CI-CD/blob/c08ed054f1fbfaf9e7b3f8e866d8fac9644c3d16/09-ci-03-cicd/mvn/pom.xml).
 
-![Снимок3](https://github.com/arklucis/CI-CD/assets/154414081/e685df6b-ad68-4f0d-9306-7cd6baa15cf6)
 
