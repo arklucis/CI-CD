@@ -24,7 +24,7 @@
 
 4. В ответе пришлите файл `maven-metadata.xml` для этого артефекта.
 
-XML file [here](https://github.com/arklucis/CI-CD/blob/c08ed054f1fbfaf9e7b3f8e866d8fac9644c3d16/09-ci-03-cicd/maven-metadata.xml).
+maven-metadata.xml file [here](https://github.com/arklucis/CI-CD/blob/c08ed054f1fbfaf9e7b3f8e866d8fac9644c3d16/09-ci-03-cicd/maven-metadata.xml).
 
 
 ### Знакомство с Maven
@@ -41,6 +41,6 @@ XML file [here](https://github.com/arklucis/CI-CD/blob/c08ed054f1fbfaf9e7b3f8e86
 
 4. В ответе пришлите исправленный файл `pom.xml`.
 
-XML file [here](https://github.com/arklucis/CI-CD/blob/c08ed054f1fbfaf9e7b3f8e866d8fac9644c3d16/09-ci-03-cicd/mvn/pom.xml).
+pom.xml file [here](https://github.com/arklucis/CI-CD/blob/c08ed054f1fbfaf9e7b3f8e866d8fac9644c3d16/09-ci-03-cicd/mvn/pom.xml).
 
 
