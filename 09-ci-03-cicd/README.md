@@ -23,6 +23,7 @@
 ### Основная часть
 
 4. В ответе пришлите файл `maven-metadata.xml` для этого артефекта.
+![Снимок2](https://github.com/arklucis/CI-CD/assets/154414081/9d7b24a2-71f1-46bd-aeaf-3b242b5779e2)
 
 
 ### Знакомство с Maven
