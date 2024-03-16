@@ -11,6 +11,8 @@
 
 1. Сделать Freestyle Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
 2. Сделать Declarative Pipeline Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
+![Снимок экрана от 2024-03-16 04-36-03](https://github.com/arklucis/CI-CD/assets/154414081/a2e0a8a8-4f72-4c87-a032-6baf7e981d0a)
+
 3. Перенести Declarative Pipeline в репозиторий в файл `Jenkinsfile`.
 4. Создать Multibranch Pipeline на запуск `Jenkinsfile` из репозитория.
 5. Создать Scripted Pipeline, наполнить его скриптом из [pipeline](./pipeline).
