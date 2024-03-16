@@ -10,6 +10,8 @@
 ## Основная часть
 
 1. Сделать Freestyle Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
+![Снимок экрана от 2024-03-16 04-40-38](https://github.com/arklucis/CI-CD/assets/154414081/c96da8ad-51b8-4cd3-a2d4-0e4aa4fd34e3)
+
 2. Сделать Declarative Pipeline Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
 ![Снимок экрана от 2024-03-16 04-36-03](https://github.com/arklucis/CI-CD/assets/154414081/a2e0a8a8-4f72-4c87-a032-6baf7e981d0a)
 
