@@ -17,7 +17,8 @@
 ![Снимок экрана от 2024-03-16 04-45-35](https://github.com/arklucis/CI-CD/assets/154414081/e4ccf5ac-ad46-423f-a789-6f02ad94e6e8)
 
 3. Перенести Declarative Pipeline в репозиторий в файл `Jenkinsfile`.
-![Снимок экрана от 2024-03-16 04-56-09](https://github.com/arklucis/CI-CD/assets/154414081/88ad2346-7579-4e1d-91d8-e461149b53e7)
+![Снимок экрана от 2024-03-16 04-57-38](https://github.com/arklucis/CI-CD/assets/154414081/f39a0a74-6f4a-4ebd-969e-67b3c4ac54ae)
+![Снимок экрана от 2024-03-16 04-58-45](https://github.com/arklucis/CI-CD/assets/154414081/fd8f38df-f34b-4bff-aa44-3f258c98b0f4)
 
 5. Создать Multibranch Pipeline на запуск `Jenkinsfile` из репозитория.
 6. Создать Scripted Pipeline, наполнить его скриптом из [pipeline](./pipeline).
