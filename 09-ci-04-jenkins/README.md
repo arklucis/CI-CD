@@ -21,6 +21,8 @@
 ![Снимок экрана от 2024-03-16 04-58-45](https://github.com/arklucis/CI-CD/assets/154414081/fd8f38df-f34b-4bff-aa44-3f258c98b0f4)
 
 5. Создать Multibranch Pipeline на запуск `Jenkinsfile` из репозитория.
+![Снимок экрана от 2024-03-18 15-06-29](https://github.com/arklucis/CI-CD/assets/154414081/766c00c0-ea5d-4280-ac9f-976afe0dfdfa)
+
 6. Создать Scripted Pipeline, наполнить его скриптом из [pipeline](./pipeline).
 7. Внести необходимые изменения, чтобы Pipeline запускал `ansible-playbook` без флагов `--check --diff`, если не установлен параметр при запуске джобы (prod_run = True). По умолчанию параметр имеет значение False и запускает прогон с флагами `--check --diff`.
 8. Проверить работоспособность, исправить ошибки, исправленный Pipeline вложить в репозиторий в файл `ScriptedJenkinsfile`.
