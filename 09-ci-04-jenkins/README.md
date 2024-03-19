@@ -33,8 +33,7 @@
 9. Отправить ссылку на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
 
 [Declarative Pipeline](https://github.com/arklucis/Ansible.git)
-
-https://github.com/arklucis/JAVA.git
+[Scripted Pipeline](https://github.com/arklucis/JAVA.git)
 
 10. Сопроводите процесс настройки скриншотами для каждого пункта задания!!
 
