@@ -19,6 +19,14 @@
         name: "{{ java_packages }}"
         state: present
 
+    - name: Add jenkins user to sudoers
+      become: true
+      lineinfile:
+        path: /etc/sudoers
+        line: 'jenkins ALL=(ALL) NOPASSWD: ALL'
+        validate: 'visudo -cf %s'
+        state: present
+
 - name: Get Jenkins master installed
   hosts: jenkins_masters
   tasks:
