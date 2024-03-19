@@ -31,7 +31,10 @@
 ![Снимок экрана от 2024-03-19 17-02-53](https://github.com/arklucis/CI-CD/assets/154414081/03b97029-3d03-4eea-b29f-5ad67b28304b)
 
 9. Отправить ссылку на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
+
 https://github.com/arklucis/Ansible.git
+
+https://github.com/arklucis/JAVA.git
 
 10. Сопроводите процесс настройки скриншотами для каждого пункта задания!!
 
