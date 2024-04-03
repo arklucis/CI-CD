@@ -63,7 +63,7 @@
 1. Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его.
 1. В качестве решения задания приведите листинг этого файла.
 
-   [Листинг файла](https://github.com/arklucis/CI-CD/blob/d9bc6ec6234f22c5095a81f71a08ed1089dd7ea1/10-monitoring-03-grafana/Dashboard.txt)
+   [JSON](https://github.com/arklucis/CI-CD/blob/d9bc6ec6234f22c5095a81f71a08ed1089dd7ea1/10-monitoring-03-grafana/Dashboard.txt)
 
 
 ---
