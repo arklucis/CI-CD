@@ -1,0 +1,21 @@
+groups: 
+- name: test
+  rules:
+
+  - alert: LowFreeMemory
+    expr: (node_memory_MemFree_bytes / 1024 / 1024) < 700
+    for: 0m
+    labels:
+      severity: warning
+    annotations:
+      summary: "Low Free Memory (instance {{ $labels.instance }})"
+      description: "The amount of free memory is below 700 MB. VALUE = {{ $value }} MB  LABELS: {{ $labels }}"
+
+  - alert: PrometheusTargetMissing
+    expr: up == 0
+    for: 5m
+    labels:
+      severity: critical
+    annotations:
+      summary: "Prometheus target missing (instance {{ $labels.instance }})"
+      description: "A Prometheus target has disappeared. An exporter might be crashed. VALUE = {{ $value }}  LABELS: {{ $labels }}"
