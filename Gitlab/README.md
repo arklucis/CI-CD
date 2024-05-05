@@ -42,3 +42,33 @@ pull_policy = ["never"] - чтоб раннер не шел на публичн�
 network_mode = "host"   - это решает ошибку с резолвом dns имени гитлаба, не является обязательной нужно смотреть лог пайплайна при сборке или же просто указать и не думать про лог
 ```
 3. После рестартим докер композ, (заново останавливаем и стратуем) чтоб перечитался конфиг раннером
+
+## Запуск тестовго CI
+в корне репо создаете файлик с именем .gitlab-ci.yml и содержимым:
+```
+build-job:
+  stage: build
+  script:
+    - echo "Hello, $GITLAB_USER_LOGIN!"
+
+test-job1:
+  stage: test
+  script:
+    - echo "This job tests something"
+
+test-job2:
+  stage: test
+  script:
+    - echo "This job tests something, but takes more time than test-job1."
+    - echo "After the echo commands complete, it runs the sleep command for 20 seconds"
+    - echo "which simulates a test that runs 20 seconds longer than test-job1"
+    - sleep 20
+
+deploy-prod:
+  stage: deploy
+  script:
+    - echo "This job deploys something from the $CI_COMMIT_BRANCH branch."
+  environment: production
+```
+это тестовый пайплайн представлен самим  гитлабом на офф.странице
+
