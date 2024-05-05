@@ -11,9 +11,9 @@
 Какие образы должны быть:
 
 ```
-gitlab/gitlab-ce:latest    - образ Гитлаба
+gitlab/gitlab-ce:latest     - образ Гитлаба
 gitlab/gitlab-runner:alpine - образ раннера
-ubuntu:latest             - для работы раннера
+ubuntu:latest               - для работы раннера
 registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.11.0 - для работы раннера
 ```
 
