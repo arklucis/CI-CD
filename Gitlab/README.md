@@ -12,19 +12,18 @@
 
 
 ```gitlab/gitlab-ce:latest```     - образ Гитлаба
-gitlab/gitlab-runner:alpine - образ раннера
-ubuntu:latest               - для работы раннера
-registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.11.0 - для работы раннера
+```gitlab/gitlab-runner:alpine``` - образ раннера
+```ubuntu:latest```               - для работы раннера
+```registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v16.11.0``` - для работы раннера
 
-```
-Если их нет то качаем их с той машины где сть выход в инет (например с локальной):
 
-```
-docker pull ubuntu:latest               - Загружаем все те образы которые требуются их 4 шт.
-docker save -o ubuntu.tar ubuntu:latest - Сохраняем в архив образ, далее копируем архив *.tar на удаленную тачку где будем запускать контейнеры Гитлаба
-docker load -i ubuntu.tar               - На удаленной машине загружаем скопированный образ из архива
-docker images                           - Проверяем должны быть все 4
-```
+если их нет то качаем их с той машины где сть выход в инет (например с локальной):
+
+```docker pull ubuntu:latest```               - Загружаем все те образы которые требуются их 4 шт.
+```docker save -o ubuntu.tar ubuntu:latest``` - Сохраняем в архив образ, далее копируем архив *.tar на удаленную тачку где будем запускать контейнеры Гитлаба
+```docker load -i ubuntu.tar```               - На удаленной машине загружаем скопированный образ из архива
+```docker images```                           - Проверяем должны быть все 4
+
 После стартуем контейнеры из docker-compose.yaml 
 
 ## Регистрация раннера
