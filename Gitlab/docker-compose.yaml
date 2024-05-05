@@ -2,7 +2,7 @@ version: '3.3'
 services:
   gitlab:
     image: 'gitlab/gitlab-ce:latest'
-    container_name: 'gitlab'
+    container_name: 'gitlab_ci'
     restart: always
     hostname: 'gitlab.combined.mgts'
     environment:
@@ -22,8 +22,6 @@ services:
       - '$GITLAB_HOME/data:/var/opt/gitlab'
       - '$GITLAB_HOME/self-signed:/etc/gitlab/ssl'
     shm_size: '256m'
-    networks:
-      - gitlab_net
 
   runner:
     image: 'gitlab/gitlab-runner:alpine'
@@ -31,11 +29,8 @@ services:
     restart: always
     volumes:
       - '/data/docker/gitlab/etc/gitlab-runner:/etc/gitlab-runner'
-      - '/data/docker/gitlab/var/run/docker.sock:/var/run/docker.sock'
+      - '/data/docker/gitlab/etc/gitlab-runner/certs:/usr/local/share/ca-certificates'
+      - '/var/run/docker.sock:/var/run/docker.sock'
     depends_on:
       - gitlab
-    networks:
-      - gitlab_net
-
-networks:
-  gitlab_net:
+    network_mode: 'host'
